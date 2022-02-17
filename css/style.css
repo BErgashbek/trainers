@@ -1,0 +1,57 @@
+body {
+  background-color: gainsboro;
+}
+hr {
+  margin: 0;
+}
+div {
+  background-color: white;
+  border-radius: 10px;
+}
+
+.left {
+  display: inline-block;
+  width: 25%;
+}
+.middle {
+  display: inline-block;
+  background-color: gainsboro;
+  width: 50%;
+}
+
+.right {
+  display: inline-block;
+  width: 25%;
+}
+.top {
+  text-align: center;
+}
+
+.logo {
+  padding: 30px 5px;
+}
+.middle1 {
+  text-align: center;
+}
+
+.middle2 {
+}
+
+.bottom {
+}
+
+.center {
+  margin-left: auto;
+}
+
+.let {
+  display: inline-block;
+  margin: 20px 40px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.margin{
+  padding-top: 50px;
+  padding-bottom: 20px;
+}

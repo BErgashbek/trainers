@@ -1,0 +1,108 @@
+body {
+  background-color: rgb(180, 176, 176);
+}
+
+.top,
+.middle1,
+.middle2,
+.bottom {
+  min-width: 70%;
+  max-width: 70%;
+  min-height: 100px;
+  border-radius: 10px;
+  background-color: white;
+  margin: 20px auto;
+  box-shadow: 1px 1px grey;
+}
+
+.toop {
+  display: flex;
+  justify-content: space-around;
+}
+
+.top {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.middle1 p:nth-of-type(1) {
+  text-align: center;
+  color: green;
+  font-size: 20px;
+}
+.middle1 {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.middle2 {
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.mid1 {
+  display: flex;
+  justify-content: space-between;
+  /* background-color: black; */
+  width: 100%;
+}
+
+.mid2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.blocks {
+  display: flex;
+  width: 35%;
+  text-align: center;
+  /* box-shadow: 1px 1px grey; */
+  border-radius: 10px;
+  background-color: white;
+  margin-bottom: 15px;
+  justify-content: flex-start;
+  flex-direction: column;
+  /* text-align: left; */
+}
+
+.blocks p {
+  text-align: left;
+  display: inline-block;
+}
+.blocks img {
+  /* margin: 0 auto; */
+}
+.blocks button {
+  display: inline-block;
+  width: 100px;
+  background-color: rgb(85, 85, 224);
+  padding: 15px;
+  color: white;
+  border-radius: 10px;
+  margin-top: 15px;
+}
+.grey {
+  font-size: 25px;
+  color: gainsboro;
+}
+
+.bottom {
+  padding: 15px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-around;
+}
+
+.left {
+  width: 40%;
+}
+.right {
+  width: 40%;
+}
+.insta {
+  width: 8%;
+  margin-right: 10px;
+}
